@@ -27,4 +27,11 @@ PROPOSER=$(curl http://$IP:56657/status 2>/dev/null | jq '.result.validator_info
 #link validator with proposer is and get status
 STATUS=$(curl http://$IP:11000/api/valopers 2>/dev/null | jq ".[][] | select(.proposer == $PROPOSER)" 2>/dev/null)
 
-echo "$STATUS" | jq
+if [ $STATUS -n 0 ]; then
+        echo "Failed to obtain stats" 1>&2
+        exit 1
+
+else
+        echo "$STATUS" | jq
+        exit 0
+fi
