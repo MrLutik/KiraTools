@@ -1,6 +1,6 @@
 # [SCRIPTS] 
 
-## status.sh - Get all validator stats by IP address
+### status.sh - Get all validator stats by IP address
 ```
 chmod +x ./status.sh
 ```
@@ -10,7 +10,7 @@ chmod +x ./status.sh
 ```
 # [COMMANDS]
 
-### Deleting snaps
+### Deleting snapshots
 ```
 ( find / -name *snap*.zip -type f -print0 && find / -name *testnet*.zip -type f -print0 ) 2>/dev/null | xargs -0 rm
 ```
