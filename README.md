@@ -1,4 +1,4 @@
-# status.sh - Get all validator data by IP address
+# status.sh - Get all validator stats by IP address
 ```
 chmod +x ./status.sh
 ```
