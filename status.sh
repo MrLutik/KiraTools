@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 howto () {
         echo "Enter IP address. status [IP]" 1>&2
@@ -6,8 +6,8 @@ howto () {
 }
 
 REQUIRED_PKG="jq"
-PKG_OK=$(apt list $REQUIRED_PKG | grep "installed") 1>/dev/null 2>/dev/null
-echo Checking for $REQUIRED_PKG: $PKG_OK
+PKG_OK=$(apt list $REQUIRED_PKG  1/dev/nul 2>/dev/null | grep "installed") 
+
 if [ "" = "$PKG_OK" ]; then
   echo "No $REQUIRED_PKG. Setting up $REQUIRED_PKG."
   sudo apt update -y 1>/dev/null 2>/dev/null
@@ -21,13 +21,14 @@ else
         howto
 fi
 
-#fetch proposer is
-PROPOSER=$(curl http://$IP:56657/status 2>/dev/null | jq '.result.validator_info.address' )
+#fetch proposer id
+PROPOSER=$(curl -m 10 http://$IP:56657/status 2>/dev/null | jq '.result.validator_info.address' ) 
+[ -z "$PROPOSER" ] && { echo "Failed to obtain proposer id. Please try another IP address."; exit 1; } 
 
 #link validator with proposer is and get status
-STATUS=$(curl http://$IP:11000/api/valopers 2>/dev/null | jq ".[][] | select(.proposer == $PROPOSER)" 2>/dev/null)
+STATUS=$(curl -m 10 http://$IP:11000/api/valopers 2>/dev/null | jq ".[][] | select(.proposer == $PROPOSER)" 2>/dev/null)
 
-if [ $STATUS -n 0 ]; then
+if [ -z "$STATUS" ]; then
         echo "Failed to obtain stats" 1>&2
         exit 1
 
