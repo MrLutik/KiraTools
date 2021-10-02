@@ -12,7 +12,7 @@ chmod +x ./status.sh
 ```
 chmod +x ./fnnetcheck.sh
 ./fnnetcheck.sh > netcheck.log
-# This will help to understand if your node has issues with peers
+# This will help to investigate if your node has issues with peers
 ```
 ### mnnetcheck.sh - MINIMAL NODE only. ^^
 
