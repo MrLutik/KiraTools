@@ -26,7 +26,7 @@ PROPOSER=$(curl -m 10 http://$IP:56657/status 2>/dev/null | jq '.result.validato
 [ -z "$PROPOSER" ] && { echo "Failed to obtain proposer id. Please try another IP address."; exit 1; } 
 
 #link validator with proposer id and get stats
-STATUS=$(curl -m 10 http://$IP:11000/api/valopers 2>/dev/null | jq ".[][] | select(.proposer == $PROPOSER)" 2>/dev/null)
+STATUS=$(curl -m 10 http://$IP:11000/api/valopers?all=true 2>/dev/null | jq ".validators|.[]|select(.proposer == $PROPOSER)" 2>/dev/null)
 
 if [ -z "$STATUS" ]; then
         echo "Failed to obtain stats" 1>&2
