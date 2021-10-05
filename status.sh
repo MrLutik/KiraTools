@@ -22,7 +22,7 @@ else
 fi
 
 #fetch proposer id
-PROPOSER=$(curl -m 10 http://$IP:56657/status 2>/dev/null | jq '.result.validator_info.address' ) 
+PROPOSER=$(curl -m 10 http://$IP:36657/status 2>/dev/null | jq '.result.validator_info.address' ) 
 [ -z "$PROPOSER" ] && { echo "Failed to obtain proposer id. Please try another IP address."; exit 1; } 
 
 #link validator with proposer id and get stats
