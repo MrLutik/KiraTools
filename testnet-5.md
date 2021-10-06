@@ -146,6 +146,8 @@ cd /tmp && read -p "Input branch name: " BRANCH && \
   You will need to add your key to .secrets directory.
   Open a new terminal window. Login as kira.
   ```
+  sudo -s
+ 
   touch /home/kira/.secrets/mnemonics.env && nano /home/kira/.secrets/mnemonics.env
   ```
   Copy past your keys from backup. CTRL+S CTRL+X to save and exit the editor
