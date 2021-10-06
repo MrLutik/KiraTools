@@ -75,7 +75,8 @@ Following command should be executed on workstation:
 ```
 ssh -i /home/$USER/keys/kira/kira_key kira@SERVER
 ```
-You will see something like this:
+Something similar will appear:
+
 ![image](https://user-images.githubusercontent.com/70693118/136188911-ff43b6cc-4a9c-452a-9399-38f01e6c1372.png)
 
 Now we settled but login to HOST/Server looks like a pain. What we can to is to configure one more file to make our lives easier.
@@ -131,8 +132,11 @@ cd /tmp && read -p "Input branch name: " BRANCH && \
   ![image](https://user-images.githubusercontent.com/70693118/136193905-e5f428f1-f9e8-48c9-b382-d99e536c3c07.png)
 
   Type: testnet-5 press Enter and after press V. Installation begin.
-  Next screen will ask us if we accept TERMS and CONDITIONS. 
+  Next screen will ask us if we accept TERMS and CONDITIONS.
+ 
   ![image](https://user-images.githubusercontent.com/70693118/136194578-bb4cd845-cc17-4208-b465-7481508cfb21.png)
+ 
+ 
   Press any key to continue.
   
   ![image](https://user-images.githubusercontent.com/70693118/136194695-928b5c22-bfc6-4d28-98ea-f39c64982f26.png)
@@ -155,34 +159,49 @@ Here we should choose VALIDATOR MODE by pressing 2
   Next step is to join network
   
   Press J to participate in testnet-5
+ 
   ![image](https://user-images.githubusercontent.com/70693118/136198672-8ece7e6d-1e87-4d74-bb5e-78f7de7744f3.png)
 
   ![image](https://user-images.githubusercontent.com/70693118/136198866-74a37156-1311-454c-b7c0-5a12f3dcf660.png)
+ 
+ 
 ### NB!: If your ssh port is not 22 - press 2 and enter the port you use!!!
   To continue we need to press S.
   
   ![image](https://user-images.githubusercontent.com/70693118/136199187-bca22b9f-c2a2-4838-9127-0c2d5ae160a2.png)
+ 
   
 At this point we need to choose TRUSTED node from given list. Please check https://testnet-rpc.kira.network/download/peers.txt
   Type IP address like this:
   
   ![image](https://user-images.githubusercontent.com/70693118/136199739-ff91f5c4-645e-4386-a83d-9290d3400484.png)
+ 
 
   Next we need to choose the way of syncing with network. Preferable way is snpashot. Press A to discover the fresh snap.
+ 
 ![image](https://user-images.githubusercontent.com/70693118/136199804-c81abba8-a991-4a8f-a30c-49b2bf31d973.png)
+ 
   
   Setup will ask us about current block height. Press ENTER.
+ 
   ![image](https://user-images.githubusercontent.com/70693118/136200743-d53369e7-0b43-4964-9934-8ae725257008.png)
 
+ 
   Confirm configuration of your node one more time. Press A
+ 
   ![image](https://user-images.githubusercontent.com/70693118/136200990-3a838569-b2e0-4940-b3a0-6c8915c9d3f2.png)
+ 
 
   Let your Kira Manager to setup seeds for you. So just press A
+ 
   ![image](https://user-images.githubusercontent.com/70693118/136201157-96fd4c3c-cc6b-481c-b191-01ef9d87df81.png)
+ 
 
   Your node will be rebooted. Connection to your host interupted. Don't worry.
   Give your host 2-5 minutes to rest.
+ 
   ![image](https://user-images.githubusercontent.com/70693118/136201617-d3175b37-c715-4749-bc87-e7edd2f94020.png)
+ 
   
   And we need to connect to ower user kira again.
   ``` 
