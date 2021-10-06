@@ -229,3 +229,13 @@ At this point we need to choose a TRUSTED node from the given list. Please check
  
  
  ![image](https://user-images.githubusercontent.com/70693118/136206297-4f391875-20cb-4c28-a98c-f8155d701ccb.png)
+ 
+ 
+ # [Troubleshooting]
+ ### [Reinstall node]
+ 
+ ![image](https://user-images.githubusercontent.com/70693118/136207454-ae0b9665-0527-44db-9f3d-2b438eb6696a.png)
+ 
+ ![image](https://user-images.githubusercontent.com/70693118/136207765-50844014-bb78-4d1f-8a8d-f8f18ae41bfe.png)
+
+
