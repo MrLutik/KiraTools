@@ -21,19 +21,19 @@ usermod kira -aG sudo
 ```
 ![image](https://user-images.githubusercontent.com/70693118/136169441-442c8df9-e15a-4cc7-a894-7742847330b9.png)
 ## Managing access for user
-I suggest to proceed with key access to the user.
+I suggest proceeding with key access to the user.
 You need to generate key pairs.
 
 ### [LINUX like systems]
-On your workstation(not HOST/Server) create key pair.
+On your workstation(not HOST/Server) create a key pair.
 ```
 mkdir -p keys && cd keys && mkdir -p kira && cd kira
 ssh-keygen -t rsa
 #Let's name them kira_key to avoid ambiguity in future
 ```
-You should choose destination and passphrase to continue.
-After keys were created you need to copy them to your host.
-We need to make sure that proper directory exist.
+You should choose a destination and a passphrase to continue.
+After keys are created you need to copy them to your host.
+We need to make sure that a proper directory exists.
 On your HOST/Server execute following commands as root:
 ```
 mkdir -p /home/kira/.ssh/ && cd /home/kira/.ssh/ && touch authorized_keys
@@ -45,7 +45,7 @@ chmod 700 /home/kira/.ssh
 chmod 600 /home/kira/.ssh/authorized_keys
 ```
 
-We need to edit sshd_config file to allow PubkeyAuthentication.
+We need to edit the sshd_config file to allow PubkeyAuthentication.
 To do this execute:
 ```
 nano /etc/ssh/sshd_config
@@ -60,7 +60,7 @@ CTRL + S CTRL + X - to save changes and exit
 ```
 systemctl restart sshd.service
 ```
-Now we want to copy public key from our workstation to our HOST/server. 
+Now we want to copy the public key from our workstation to our HOST/server. 
 To do so we need to execute following [on workstation]:
 ```
 scp /home/$USER/keys/kira/kira_key.pub root@SERVER_IP:/home/kira/.ssh/
@@ -70,7 +70,7 @@ Execute this commands on your HOST/Server as root user
 ```
 cat /home/kira/.ssh/kira_key.pub >>/home/kira/.ssh/authorized_keys
 ```
-Now we can test our setup. We willtry to connect from our workstation to HOST/Server using new credentials.
+Now we can test our setup. We will try to connect from our workstation to HOST/Server using new credentials.
 Following command should be executed on workstation:
 ```
 ssh -i /home/$USER/keys/kira/kira_key kira@SERVER
@@ -82,7 +82,7 @@ Something similar will appear:
 Now we settled but login to HOST/Server looks like a pain. What we can to is to configure one more file to make our lives easier.
 
 ## [./ssh/config - magic helper]
-On workstation we need to edit file config.
+On the workstation we need to edit file config.
 ```
 nano /home/$USER/.ssh/config
 ```
@@ -105,8 +105,8 @@ ssh kira
 ```
 
 ## [WINDOWS]
-  I don't have windows os anywhere around. So here I will provide links and main idea.
-  Main goal is to create key pair. Public key should be copied on your server in /home/<USERNAME>/.ssh/authorized_keys
+  I don't have windows anywhere around. So here I will provide links and main idea.
+  Main goal is to create a key pair. Public key should be copied on your server in /home/<USERNAME>/.ssh/authorized_keys
   And putty should have a link to your key while connecting to HOST/Server
   
   Link1: "https://www.ssh.com/academy/ssh/putty/windows/puttygen"
@@ -128,10 +128,10 @@ cd /tmp && read -p "Input branch name: " BRANCH && \
  chmod 555 -v ./i.sh && H=$(sha256sum ./i.sh | awk '{ print $1 }') && read -p "Is '$H' a [V]alid SHA256 ?: "$'\n' -n 1 V && \
  [ "${V,,}" != "v" ] && echo "INFO: Setup was cancelled by the user." || ./i.sh "$BRANCH"
   ```
-  Script will ask us to enter branch first.
+  Script will ask us to enter the branch first.
   ![image](https://user-images.githubusercontent.com/70693118/136193905-e5f428f1-f9e8-48c9-b382-d99e536c3c07.png)
 
-  Type: testnet-5 press Enter and after press V. Installation begin.
+  Type: testnet-5 press Enter and after press V. Installation begins.
   Next screen will ask us if we accept TERMS and CONDITIONS.
  
   ![image](https://user-images.githubusercontent.com/70693118/136194578-bb4cd845-cc17-4208-b465-7481508cfb21.png)
@@ -142,15 +142,15 @@ cd /tmp && read -p "Input branch name: " BRANCH && \
   ![image](https://user-images.githubusercontent.com/70693118/136194695-928b5c22-bfc6-4d28-98ea-f39c64982f26.png)
   
   Here we have two options.
-  ### [Option 1. You filled the goole form and passed KYC long time ago.]
+  ### [Option 1. You filled the google form and passed KYC a long time ago.]
   You will need to add your key to .secrets directory.
-  Open new terminal window. Login as kira.
+  Open a new terminal window. Login as kira.
   ```
   touch /home/kira/.secrets/mnemonics.env && nano /home/kira/.secrets/mnemonics.env
   ```
   Copy past your keys from backup. CTRL+S CTRL+X to save and exit the editor
   You are good to proceed!
-  ### [Option 2. You are newcomer.]
+  ### [Option 2. You are a newcomer.]
   Press 2. You will be prompted to choose bip39 seed words.
   From here you can use AUTOGENERATE function or to choose 24 words from here https://github.com/bitcoin/bips/blob/master/bip-0039/english.txt
   and provide the whitespace-separated.
@@ -171,7 +171,7 @@ Here we should choose VALIDATOR MODE by pressing 2
   ![image](https://user-images.githubusercontent.com/70693118/136199187-bca22b9f-c2a2-4838-9127-0c2d5ae160a2.png)
  
   
-At this point we need to choose TRUSTED node from given list. Please check https://testnet-rpc.kira.network/download/peers.txt
+At this point we need to choose a TRUSTED node from the given list. Please check https://testnet-rpc.kira.network/download/peers.txt
   Type IP address like this:
   
   ![image](https://user-images.githubusercontent.com/70693118/136199739-ff91f5c4-645e-4386-a83d-9290d3400484.png)
@@ -182,7 +182,7 @@ At this point we need to choose TRUSTED node from given list. Please check https
 ![image](https://user-images.githubusercontent.com/70693118/136199804-c81abba8-a991-4a8f-a30c-49b2bf31d973.png)
  
   
-  Setup will ask us about current block height. Press ENTER.
+  Setup will ask us about the current block height. Press ENTER.
  
   ![image](https://user-images.githubusercontent.com/70693118/136200743-d53369e7-0b43-4964-9934-8ae725257008.png)
 
@@ -192,18 +192,18 @@ At this point we need to choose TRUSTED node from given list. Please check https
   ![image](https://user-images.githubusercontent.com/70693118/136200990-3a838569-b2e0-4940-b3a0-6c8915c9d3f2.png)
  
 
-  Let your Kira Manager to setup seeds for you. So just press A
+  Let your Kira Manager set up seeds for you. So just press A
  
   ![image](https://user-images.githubusercontent.com/70693118/136201157-96fd4c3c-cc6b-481c-b191-01ef9d87df81.png)
  
 
-  Your node will be rebooted. Connection to your host interupted. Don't worry.
+  Your node will be rebooted. Connection to your host interrupted. Don't worry.
   Give your host 2-5 minutes to rest.
  
   ![image](https://user-images.githubusercontent.com/70693118/136201617-d3175b37-c715-4749-bc87-e7edd2f94020.png)
  
   
-  And we need to connect to ower user kira again.
+  And we need to connect to user kira again.
   ``` 
   ssh kira
   ```
@@ -214,10 +214,18 @@ At this point we need to choose TRUSTED node from given list. Please check https
   sudo -s
   kira
   ```
-  Installation will ask you if you want to continue.Press V to continue installation. From here it will take some time. So brew some coffe...
+  Installation will ask you if you want to continue.Press V to continue installation. From here it will take some time. So brew some coffee...
   ![image](https://user-images.githubusercontent.com/70693118/136201885-7aa8e042-55e1-4988-80ca-c62e2e0e8642.png)
 
   
-  
-  
+  Installation is finished. Now you can exit the kira setup. Press CTRL+C. And type
+ ```
+ kira
+ ```
+ Let KIRA MANAGER and your containers catch up. It may take some time. Be patient. 
+  ![image](https://user-images.githubusercontent.com/70693118/136205201-fe2d0d1f-3214-4a3f-85ef-4c94ed083182.png)
 
+ FINAL. Your Kira Manager should look like this(if you are newcomer):
+ 
+ 
+ ![image](https://user-images.githubusercontent.com/70693118/136206297-4f391875-20cb-4c28-a98c-f8155d701ccb.png)
