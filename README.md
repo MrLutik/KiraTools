@@ -8,13 +8,13 @@ chmod +x ./status.sh
 ```
 ./status.sh 255.255.255.0
 ```
-### fnnetcheck.sh - FULL NODE only. Check all connections from all containers and host
+### fnnetcheck.sh - Validator node only. Check all connections from all containers and host
 ```
 chmod +x ./fnnetcheck.sh
 ./fnnetcheck.sh > netcheck.log
 # This will help to investigate if your node has issues with peers
 ```
-### mnnetcheck.sh - MINIMAL NODE only. ^^
+### mnnetcheck.sh - Sentry node. ^^
 
 
 # [COMMANDS]
