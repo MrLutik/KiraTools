@@ -227,8 +227,12 @@ At this point we need to choose a TRUSTED node from the given list. Please check
 
  FINAL. Your Kira Manager should look like this(if you are newcomer):
  
- 
  ![image](https://user-images.githubusercontent.com/70693118/136206297-4f391875-20cb-4c28-a98c-f8155d701ccb.png)
+ 
+ and if you recovered your keys. Press J to join validator seat. Enter your moniker and that's it.
+ 
+ ![image](https://user-images.githubusercontent.com/70693118/136208465-2229bbe0-388f-4fe5-88d3-f209d2b1c6ab.png)
+
  
  
  # [Troubleshooting]
