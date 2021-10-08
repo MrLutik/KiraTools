@@ -23,6 +23,7 @@ usermod kira -aG sudo
 ## Managing access for user
 I suggest proceeding with key access to the user.
 You need to generate key pairs.
+If you don't feel like you can proceed furthe -skip it. Proceed to [Kira Manager Installation]
 
 ### [LINUX like systems]
 On your workstation(not HOST/Server) create a key pair.
@@ -255,7 +256,90 @@ At this point we need to choose a TRUSTED node from the given list. Please check
  
  ps -aux | grep containers-pkill* | awk '{print $2}' | xargs kill -9
  ```
+ ## [FAQ]
  
+ 1. Can we update node be re-init from t4 to t5
+ -No
+ 
+ 2. What should I do if I am out of space
+ -Try to delete snapshots. Check the command from here https://github.com/MrLutik/KiraTools/blob/main/README.md
+ 
+ 3. How to check status of my node?
+ - Check if you have validator container up & runnig. Check your stats inside validator container(streak, rank, produceed blocks).
+ 
+ 4. What does the rank means?
+ - Please check here https://github.com/KiraCore/docs/blob/master/spec/iteration-2/kip_68.md#validator-rank
+ 
+ 5. What ports KM uses?
+ ```
+DEFAULT_P2P_PORT="26656"
+DEFAULT_RPC_PORT="26657"
+DEFAULT_PROMETHEUS_PORT="26660"
+DEFAULT_GRPC_PORT="9090"
+DEFAULT_INTERX_PORT="11000"
 
+KIRA_FRONTEND_PORT="80"
+KIRA_INTERX_PORT="11000"
+
+KIRA_SEED_P2P_PORT="16656"
+KIRA_SEED_RPC_PORT="16657"
+KIRA_SEED_GRPC_PORT="19090"
+KIRA_SEED_PROMETHEUS_PORT="16660"
+
+KIRA_SENTRY_RPC_PORT="26657"
+KIRA_SENTRY_P2P_PORT="26656"
+KIRA_SENTRY_GRPC_PORT="29090"
+KIRA_SENTRY_PROMETHEUS_PORT="26660"
+
+KIRA_VALIDATOR_P2P_PORT="36656"
+KIRA_VALIDATOR_RPC_PORT="36657"
+KIRA_VALIDATOR_GRPC_PORT="39090"
+KIRA_VALIDATOR_PROMETHEUS_PORT="36660"
+
+KIRA_REGISTRY_PORT="5000"
+ ```
+ 6. How to change config.toml in the docker container?
+ - You can change them with the bash function:
+ ```
+     globGet XXX
+     globSet XXX YYY
+ ```
+ List of config. values below.
+ ```
+CFG_timeout_commit=$(globGet CFG_timeout_commit)
+CFG_pex=$(globGet CFG_pex)
+CFG_moniker=$(globGet CFG_moniker)
+CFG_allow_duplicate_ip=$(globGet CFG_allow_duplicate_ip)
+CFG_addr_book_strict=$(globGet CFG_addr_book_strict)
+CFG_fastsync=$(globGet CFG_fastsync)
+CFG_fastsync_version=$(globGet CFG_fastsync_version)
+CFG_handshake_timeout=$(globGet CFG_handshake_timeout)
+CFG_dial_timeout=$(globGet CFG_dial_timeout)
+CFG_trust_period=$(globGet CFG_trust_period)
+CFG_max_txs_bytes=$(globGet CFG_max_txs_bytes)
+CFG_max_tx_bytes=$(globGet CFG_max_tx_bytes)
+CFG_send_rate=$(globGet CFG_send_rate)
+CFG_recv_rate=$(globGet CFG_recv_rate)
+CFG_max_packet_msg_payload_size=$(globGet CFG_max_packet_msg_payload_size)
+CFG_cors_allowed_origins=$(globGet CFG_cors_allowed_origins)
+CFG_snapshot_interval=$(globGet CFG_snapshot_interval)
+CFG_statesync_enable=$(globGet CFG_statesync_enable)
+CFG_statesync_temp_dir=$(globGet CFG_statesync_temp_dir)
+CFG_create_empty_blocks_interval=$(globGet CFG_create_empty_blocks_interval)
+CFG_max_num_outbound_peers=$(globGet CFG_max_num_outbound_peers)
+CFG_max_num_inbound_peers=$(globGet CFG_max_num_inbound_peers)
+CFG_prometheus=$(globGet CFG_prometheus)
+CFG_seed_mode=$(globGet CFG_seed_mode)
+CFG_skip_timeout_commit=$(globGet CFG_skip_timeout_commit)
+CFG_unconditional_peer_ids=$(globGet CFG_unconditional_peer_ids)
+CFG_persistent_peers=$(globGet CFG_persistent_peers)
+CFG_seeds=$(globGet CFG_seeds)
+CFG_grpc_laddr=$(globGet CFG_grpc_laddr)
+CFG_rpc_laddr=$(globGet CFG_rpc_laddr)
+CFG_p2p_laddr=$(globGet CFG_p2p_laddr)
+ ```
+
+ Use case: https://github.com/KiraCore/kira/blob/master/workstation/containers/start-validator.sh
+ 
 
 
