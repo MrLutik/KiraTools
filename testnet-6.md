@@ -1,6 +1,6 @@
-![image](https://user-images.githubusercontent.com/70693118/138587810-8c367969-d1b0-47a3-82ef-eec0944edd97.png)
+# v.0.5.2.4
 
-Press K
+![image](https://user-images.githubusercontent.com/70693118/138602741-4a48e3f8-8d7e-4073-86cd-3f49ad2d1305.png)
 
 Press I
 
@@ -10,9 +10,12 @@ Press Y
 
 Press C
 
-Input: master
+Input: testnet-6
 
-![image](https://user-images.githubusercontent.com/70693118/138588027-294a9130-a9ba-4133-8e14-3c86cec4ea2e.png)
+![image](https://user-images.githubusercontent.com/70693118/138602857-782d127b-6224-4048-b476-231cd60b6444.png)
+
+
+
 
 Press C
 
@@ -31,7 +34,7 @@ Press any key
 
 Press J
 
-![image](https://user-images.githubusercontent.com/70693118/138588144-2934e7f5-65b5-483a-835c-6354d2e0f032.png)
+![image](https://user-images.githubusercontent.com/70693118/138603032-ead44a1d-9ba4-4af6-b457-719b32ac314d.png)
 
 Press S
 
@@ -58,6 +61,10 @@ Past
 ![image](https://user-images.githubusercontent.com/70693118/138588235-cba13014-9394-432c-b526-cfc77ff4f5a4.png)
 
 Press Enter
+![image](https://user-images.githubusercontent.com/70693118/138603074-249f511d-3843-4dbf-933e-d1e1b9a8d98a.png)
+
+
+Press A
 
 ![image](https://user-images.githubusercontent.com/70693118/138588257-10c842ef-47a3-42a4-91e6-a5cc5013097f.png)
 
@@ -68,7 +75,12 @@ Press A
 LOG In again to your server
 
 Type: kira
-Press: v
+
+![image](https://user-images.githubusercontent.com/70693118/138603208-809b7b7f-4e38-4389-98e3-2e6d7c3bbfc7.png)
+
+Press V
+
+
 
 
 
