@@ -84,6 +84,25 @@ Press A
 Propoer output looks like this:
 ![image](https://user-images.githubusercontent.com/70693118/139250072-d0399ea7-c040-4f25-823c-f2e6712abd7d.png)
 
+Your host will reboot.
+![image](https://user-images.githubusercontent.com/70693118/139250252-70768e0d-6e57-4a9b-a7e8-fd01ff096ad7.png)
+
+### LOG IN as user(example: ssh kira@172.0.0.1)
+
+Input:
+```
+kira
+```
+Press ENTER
+
+![image](https://user-images.githubusercontent.com/70693118/139250545-1cce41d8-c6d4-4aa4-be54-1e8c3e5e6cc9.png)
+
+Press V
+
+![image](https://user-images.githubusercontent.com/70693118/139250696-b6345bf0-3489-4ef5-9091-5b2054af5db2.png)
+
+
+
 
 
 
