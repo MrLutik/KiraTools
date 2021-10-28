@@ -102,6 +102,45 @@ Press V
 
 ![image](https://user-images.githubusercontent.com/70693118/139250696-b6345bf0-3489-4ef5-9091-5b2054af5db2.png)
 
+Press CTRL + C
+
+![image](https://user-images.githubusercontent.com/70693118/139253255-896de80a-2595-4347-87e1-277dbf3d7278.png)
+
+Before start kira again you need to check state file.
+Input:
+```
+docker exec -it validator cat /root/.sekaid/data/priv_validator_state.json
+```
+![image](https://user-images.githubusercontent.com/70693118/139253672-28e812d2-1cec-42f5-b129-c9620fea138d.png)
+
+## IF you have here 234887 or 234887
+please execute following commands:
+```
+docker exec -it validator sed 's/243887/12840/g' /root/.sekaid/data/priv_validator_state.json 
+docker exec -it validator sed 's/243888/12840/g' /root/.sekaid/data/priv_validator_state.json
+```
+![image](https://user-images.githubusercontent.com/70693118/139253948-d8fff480-88a2-404f-a96d-11b1fa5d80b0.png)
+
+Input:
+```
+docker exec -it validator cat /root/.sekaid/data/priv_validator_state.json
+```
+Check. If not successful - try manulayy edit this file
+```
+docker exec -it validator nano /root/.sekaid/data/priv_validator_state.json
+```
+![image](https://user-images.githubusercontent.com/70693118/139254344-08949714-99e9-4f2b-84b2-21aa77019b73.png)
+Press CTRL + S CTRL + X
+
+Input:
+```
+kira
+```
+![image](https://user-images.githubusercontent.com/70693118/139254689-88e61d74-7cbc-4294-8c09-e3d50a456647.png)
+
+Press J
+
+![image](https://user-images.githubusercontent.com/70693118/139255191-1bb9e3d0-119b-4924-841f-8f9a7adca096.png)
 
 
 
