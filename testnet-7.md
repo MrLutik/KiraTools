@@ -115,9 +115,13 @@ docker exec -it validator cat /root/.sekaid/data/priv_validator_state.json
 
 ## IF you have here 234887 or 234887
 please execute following commands:
-```
-docker exec -it validator sed 's/243887/12840/g' /root/.sekaid/data/priv_validator_state.json 
-docker exec -it validator sed 's/243888/12840/g' /root/.sekaid/data/priv_validator_state.json
+
+docker exec -it validator nano /root/.sekaid/data/priv_validator_state.json
+
+globSet MIN_HEIGHT 12000 $GLOBAL_COMMON_RO
+globSet MIN_HEIGHT 12000
+globSet latest_block_height 12000
+
 ```
 ![image](https://user-images.githubusercontent.com/70693118/139253948-d8fff480-88a2-404f-a96d-11b1fa5d80b0.png)
 
