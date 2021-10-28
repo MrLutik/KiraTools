@@ -47,6 +47,47 @@ Press J
 
 ![image](https://user-images.githubusercontent.com/70693118/139248190-6ef67814-79e1-4147-97ee-06e9d88bc5f2.png)
 
+Please make sure that all branches set properly.
+
+Press S
+
+![image](https://user-images.githubusercontent.com/70693118/139248513-82c5ce94-0662-4c73-8ff5-66c26a77201f.png)
+
+Input: ip (example: 127.0.0.0)
+Source:
+```
+https://testnet-rpc.kira.network/download/peers.txt
+```
+Press A
+
+![image](https://user-images.githubusercontent.com/70693118/139249078-424847c1-58f0-41f6-a048-b65e66f3b508.png)
+
+Press ENTER
+
+![image](https://user-images.githubusercontent.com/70693118/139249254-aa55580e-824c-429e-9bbf-a69b7ac18055.png)
+
+Check the marked fields.
+
+Genesis checksum
+```
+0x3c7d72740fbd6f840e9757feaa81a3575cabbdb0a213c1e2c1e30913b8771274
+```
+If everything correct - proceed.
+Press A
+
+![image](https://user-images.githubusercontent.com/70693118/139249790-88eb99f8-fb61-4325-b710-9f05d471dcdc.png)
+
+Press A
+
+![image](https://user-images.githubusercontent.com/70693118/139249970-98e3a2fd-70ea-4139-9dd4-d5b524d47b61.png)
+
+Propoer output looks like this:
+![image](https://user-images.githubusercontent.com/70693118/139250072-d0399ea7-c040-4f25-823c-f2e6712abd7d.png)
+
+
+
+
+
 
 
 
