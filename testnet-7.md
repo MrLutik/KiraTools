@@ -91,6 +91,7 @@ Your host will reboot.
 
 Input:
 ```
+sudo -s
 kira
 ```
 Press ENTER
