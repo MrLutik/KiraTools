@@ -125,7 +125,7 @@ Input:
 ```
 docker exec -it validator cat /root/.sekaid/data/priv_validator_state.json
 ```
-Check. If not successful - try manulayy edit this file
+Check. If not successful - try manully edit this file
 ```
 docker exec -it validator nano /root/.sekaid/data/priv_validator_state.json
 ```
@@ -136,6 +136,15 @@ Input:
 ```
 kira
 ```
+Press 1
+
+![image](https://user-images.githubusercontent.com/70693118/139257570-0541c07a-1a8d-44de-ad25-8e7956f8d739.png)
+
+Press R
+
+![image](https://user-images.githubusercontent.com/70693118/139257650-1916e7b4-4bb4-4383-891a-fd707bd15bb3.png)
+
+
 ![image](https://user-images.githubusercontent.com/70693118/139254689-88e61d74-7cbc-4294-8c09-e3d50a456647.png)
 
 Press J
