@@ -115,7 +115,7 @@ docker exec -it validator cat /root/.sekaid/data/priv_validator_state.json
 
 ## IF you have here 234887 or 234887
 please execute following commands:
-
+```
 docker exec -it validator nano /root/.sekaid/data/priv_validator_state.json
 
 globSet MIN_HEIGHT 12000 $GLOBAL_COMMON_RO
