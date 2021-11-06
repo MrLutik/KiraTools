@@ -52,6 +52,13 @@ Press ANY KEY
 
 ![image](https://user-images.githubusercontent.com/70693118/140622710-5a37304f-dbc2-4d67-b513-81fceae0d424.png)
 
+Press J
+
+![image](https://user-images.githubusercontent.com/70693118/140624028-2c304f26-e1ad-42da-975b-f66333939e69.png)
+
+
+
+
 OPEN NEW SSH SESSION. USER: ROOT
 
 Type
