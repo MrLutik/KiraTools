@@ -82,4 +82,27 @@ Press C
 
 ![image](https://user-images.githubusercontent.com/70693118/140621006-c8e1c21b-61c5-4169-b07b-c0394c67d42e.png)
 
-![image](https://user-images.githubusercontent.com/70693118/140620995-1185f074-5ba2-42c1-902a-6d3723954002.png)
+Copy-past genesis url:
+```
+https://raw.githubusercontent.com/KiraCore/testnet/main/testnet-8/genesis.json
+```
+![image](https://user-images.githubusercontent.com/70693118/140621053-2094b9bd-4f8b-443b-a74f-45655e7b64f9.png)
+
+Press C
+
+![image](https://user-images.githubusercontent.com/70693118/140621080-2febfa20-d903-4408-ace0-0761d64a01b4.png)
+
+Press ENTER
+
+![image](https://user-images.githubusercontent.com/70693118/140621095-3c27c47a-3961-4617-91f1-c745759b3970.png)
+
+Check framed items
+Press A
+![image](https://user-images.githubusercontent.com/70693118/140621113-d869f823-b905-4960-9e43-5845cf76dc76.png)
+
+Success 
+![image](https://user-images.githubusercontent.com/70693118/140621124-63e5d373-6c68-4b37-ab84-da2fc96b0a89.png)
+
+
+
+
