@@ -62,5 +62,24 @@ Press J
 
 ![image](https://user-images.githubusercontent.com/70693118/140620938-6c794169-01c4-45e4-99b9-e0ed04592a45.png)
 
+Check branches. 
+Press S
 
+![image](https://user-images.githubusercontent.com/70693118/140620960-e3a4fdc5-46c6-46e4-8305-f17e0f7e45ed.png)
 
+Type
+```
+0.0.0.0
+```
+Press ENTER
+![image](https://user-images.githubusercontent.com/70693118/140620984-18608227-6e8c-446f-8608-0aed75a65a5f.png)
+
+Press C
+
+![image](https://user-images.githubusercontent.com/70693118/140620996-77fcdac0-e32a-4ef6-912e-c60cce687dbe.png)
+
+Press C
+
+![image](https://user-images.githubusercontent.com/70693118/140621006-c8e1c21b-61c5-4169-b07b-c0394c67d42e.png)
+
+![image](https://user-images.githubusercontent.com/70693118/140620995-1185f074-5ba2-42c1-902a-6d3723954002.png)
