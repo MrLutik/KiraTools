@@ -105,6 +105,15 @@ Success
 
 ![image](https://user-images.githubusercontent.com/70693118/140621124-63e5d373-6c68-4b37-ab84-da2fc96b0a89.png)
 
+Login as user
+Type
+```
+sudo -s
+kira
+```
+Press V
+
+![image](https://user-images.githubusercontent.com/70693118/140621205-fa75f162-c831-4d46-960c-6c78d789114f.png)
 
 
 
