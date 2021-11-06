@@ -48,4 +48,32 @@ Press V
 
 ![image](https://user-images.githubusercontent.com/70693118/140622632-0229d310-c085-4bf1-98b4-7ebb4c5e6af1.png)
 
+Press ANY KEY
+
+![image](https://user-images.githubusercontent.com/70693118/140622710-5a37304f-dbc2-4d67-b513-81fceae0d424.png)
+
+OPEN NEW SSH SESSION. USER: ROOT
+
+Type
+```
+touch /home/kira/.secrets/mnemonics.env
+
+nano !$
+```
+Copy-past your keys.
+
+Press CTRL + S CTRL + X
+
+![image](https://user-images.githubusercontent.com/70693118/140622825-ceaf1422-25a1-4696-be6a-1152101c574d.png)
+
+Type
+```
+exit
+```
+RETURN TO YOUR SESSION.
+
+
+
+
+
 
