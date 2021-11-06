@@ -180,7 +180,13 @@ Press V
 
 ![image](https://user-images.githubusercontent.com/70693118/140624847-ac1a45f6-8140-441e-af61-9f1a184cad4d.png)
 
+Press CTRL + C
+Type
+```
+kira
+```
 
+![image](https://user-images.githubusercontent.com/70693118/140624964-f889cb06-a94f-4765-aa5a-bc1ab169c00f.png)
 
 
 
