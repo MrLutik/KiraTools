@@ -115,5 +115,17 @@ Press V
 
 ![image](https://user-images.githubusercontent.com/70693118/140621205-fa75f162-c831-4d46-960c-6c78d789114f.png)
 
+Press CTRL + C
+
+![image](https://user-images.githubusercontent.com/70693118/140621639-c0cbfb92-2f78-4c15-875a-1a5db558f320.png)
+
+Type
+```
+kira
+```
+You will see this. It is OK. Just wait
+
+![image](https://user-images.githubusercontent.com/70693118/140621668-2076939c-70ce-40c4-9b48-d89925bc7223.png)
+
 
 
