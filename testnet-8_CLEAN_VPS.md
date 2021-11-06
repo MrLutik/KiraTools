@@ -52,10 +52,6 @@ Press ANY KEY
 
 ![image](https://user-images.githubusercontent.com/70693118/140622710-5a37304f-dbc2-4d67-b513-81fceae0d424.png)
 
-Press 1
-
-![image](https://user-images.githubusercontent.com/70693118/140624199-56e5c8a7-6212-4387-921a-753dcb54bf59.png)
-
 OPEN NEW SSH SESSION. USER: ROOT
 
 Type
@@ -75,6 +71,10 @@ Type
 exit
 ```
 RETURN TO YOUR SESSION.
+
+Press 1
+
+![image](https://user-images.githubusercontent.com/70693118/140624199-56e5c8a7-6212-4387-921a-753dcb54bf59.png)
 
 Press J
 
