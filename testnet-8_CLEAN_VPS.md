@@ -163,5 +163,25 @@ Press E
 
 ![image](https://user-images.githubusercontent.com/70693118/140624582-6715261a-82a8-4aab-b461-7febac169cbf.png)
 
+Your host will reboot.
+
+![image](https://user-images.githubusercontent.com/70693118/140624607-7b847239-0395-4d03-8198-71ee09bd13a8.png)
+
+LOGIN AS kira
+
+Type
+```
+sudo -s
+
+kira
+```
+
+Press V
+
+![image](https://user-images.githubusercontent.com/70693118/140624847-ac1a45f6-8140-441e-af61-9f1a184cad4d.png)
+
+
+
+
 
 
