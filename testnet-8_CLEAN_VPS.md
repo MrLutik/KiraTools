@@ -56,14 +56,6 @@ Press 1
 
 ![image](https://user-images.githubusercontent.com/70693118/140624199-56e5c8a7-6212-4387-921a-753dcb54bf59.png)
 
-
-Press J
-
-![image](https://user-images.githubusercontent.com/70693118/140624028-2c304f26-e1ad-42da-975b-f66333939e69.png)
-
-
-
-
 OPEN NEW SSH SESSION. USER: ROOT
 
 Type
@@ -83,6 +75,33 @@ Type
 exit
 ```
 RETURN TO YOUR SESSION.
+
+Press J
+
+![image](https://user-images.githubusercontent.com/70693118/140624028-2c304f26-e1ad-42da-975b-f66333939e69.png)
+
+Press S
+
+![image](https://user-images.githubusercontent.com/70693118/140624230-3cfb2535-06ae-4b87-bd07-cc5d00da82f7.png)
+
+Type ONE IP from given:
+```
+52.56.117.134
+18.135.115.225
+3.11.224.235
+```
+Press ENTER
+![image](https://user-images.githubusercontent.com/70693118/140624285-c716f842-ebcb-4409-a1ed-d71d55d3d275.png)
+
+Press C
+![image](https://user-images.githubusercontent.com/70693118/140624297-90ebd87e-3c51-408d-b1fc-d2f35a550c6e.png)
+
+Press C
+![image](https://user-images.githubusercontent.com/70693118/140624309-57f31732-f1f8-47d4-9614-4341e8e0c875.png)
+
+![image](https://user-images.githubusercontent.com/70693118/140624312-75fe7f95-d4d2-4e51-ad34-ef5dca28dac6.png)
+
+
 
 
 
