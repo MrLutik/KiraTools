@@ -98,9 +98,11 @@ Press ENTER
 
 Check framed items
 Press A
+
 ![image](https://user-images.githubusercontent.com/70693118/140621113-d869f823-b905-4960-9e43-5845cf76dc76.png)
 
 Success 
+
 ![image](https://user-images.githubusercontent.com/70693118/140621124-63e5d373-6c68-4b37-ab84-da2fc96b0a89.png)
 
 
