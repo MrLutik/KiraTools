@@ -20,10 +20,30 @@ Validator outgoing traffic. All incoming traffic is blocked.
 
 
 ```
-docker exec -it validator netstat -nptw | grep -E '$(hostanme -I | awk "{print $1}")|26656|36656|56656' | grep ESTABLISHED
+docker exec -it sentry netstat -nptw | grep -E '$(hostanme -I | awk "{print $1}")|26656|36656|56656' | grep ESTABLISHED
 ```
 Sentry outgoing traffic. All incoming traffic is blocked.
 
 ![image](https://user-images.githubusercontent.com/70693118/141281682-de3324ba-6ca8-4bac-acf5-8e282d7c5468.png)
 
+First thing we want to turn off pex reactor. To check its status:
+
+```
+docker exec -it validator cat /root/.sekaid/config/config.toml | grep pex
+```
+
+Let's configure
+```
+globSet CFG_pex "false" /docker/shared/common/validator/kiraglob
+globSet EXTERNAL_ADDRESS "tcp://172.31.12.127:36656" /docker/shared/common/validator/kiraglob
+globSet CFG_persistent_peers "tcp://2e87bd3a016f0230d35501b90ebc58ef72544bcb@172.31.5.169:26656" /docker/shared/common/validator/kiraglob
+globSet CFG_private_peer_ids "2e87bd3a016f0230d35501b90ebc58ef72544bcb" /docker/shared/common/validator/kiraglob
+```
+Restart container. We might want to check if we connected to sentry node
+
+![image](https://user-images.githubusercontent.com/70693118/141290934-76f9d125-8865-45c3-84d8-82003f566f0f.png)
+
+The end
+
+![image](https://user-images.githubusercontent.com/70693118/141291521-17a0dd99-a3ad-40b5-af4c-64d835187915.png)
 
