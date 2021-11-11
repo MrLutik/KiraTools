@@ -1,3 +1,5 @@
+# HOW TO CONNECT VALIDATOR TO SENTRY
+
 ![image](https://user-images.githubusercontent.com/70693118/141280089-999ba63f-f96e-403c-a079-e72fac6852e5.png)
 
 Here I have two instances.
