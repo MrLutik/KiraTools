@@ -22,7 +22,9 @@ kira
 ```
 Press I
 
+
 ![image](https://user-images.githubusercontent.com/70693118/140620767-12289be8-91fb-453a-bdb6-e29da4833682.png)
+
 
 Press Y
 
