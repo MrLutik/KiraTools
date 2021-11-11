@@ -5,7 +5,7 @@ Here I have two instances.
 Validator:  L.IP: 172.31.12.127     P.IP: 3.8.220.108
 Sentry:     L.IP: 172.31.5.169      P.IP: 3.9.22.158
 
-Both share the same networ interface.
+Both share the same network interface.
 
 PING: Validator -> Sentry
 
