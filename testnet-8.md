@@ -22,9 +22,7 @@ kira
 ```
 Press I
 
-
 ![image](https://user-images.githubusercontent.com/70693118/140620767-12289be8-91fb-453a-bdb6-e29da4833682.png)
-
 
 Press Y
 
@@ -76,6 +74,7 @@ Type
 0.0.0.0
 ```
 Press ENTER
+
 ![image](https://user-images.githubusercontent.com/70693118/140620984-18608227-6e8c-446f-8608-0aed75a65a5f.png)
 
 Press C
