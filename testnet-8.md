@@ -21,6 +21,7 @@ Type
 kira
 ```
 Press I
+
 ![image](https://user-images.githubusercontent.com/70693118/140620767-12289be8-91fb-453a-bdb6-e29da4833682.png)
 
 Press Y
@@ -40,6 +41,7 @@ Type
 testnet-8
 ```
 Press ENTER
+
 ![image](https://user-images.githubusercontent.com/70693118/140620845-5601b452-688d-4a7c-8cca-d42e79a29d19.png)
 
 Press C
