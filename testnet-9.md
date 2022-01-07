@@ -51,6 +51,8 @@
 52.56.117.134
 
 https://testnet-rpc.kira.network/download/peers.txt
+
+https://testnet-rpc.kira.network/api/pub_p2p_list?ip_only=true&connected=true
 `
 ![image](https://user-images.githubusercontent.com/70693118/148616510-7ec6e012-0a9b-4263-9619-1bc40756e2c3.png)
 
