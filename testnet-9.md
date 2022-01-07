@@ -127,6 +127,20 @@ sudo kira
 
 ![image](https://user-images.githubusercontent.com/70693118/148617729-d7f69bc8-3351-4bf7-a9ea-831a57f676f0.png)
 
+### Press Ctrl + C
+
+![image](https://user-images.githubusercontent.com/70693118/148619063-25a74317-7dca-4603-bd57-21703c13f0e9.png)
+
+### Type
+
+`
+sudo kira
+`
+
+![image](https://user-images.githubusercontent.com/70693118/148619160-26605f05-b2f3-4ab4-b277-20e751314fc5.png)
+
+
+
 
 
 
