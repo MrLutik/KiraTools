@@ -76,6 +76,65 @@ https://raw.githubusercontent.com/KiraCore/testnet/main/testnet-9/genesis.json
 
 ![image](https://user-images.githubusercontent.com/70693118/148616843-567c8383-b227-4ea8-a84c-5e56f535a909.png)
 
+### Press A
+
+![image](https://user-images.githubusercontent.com/70693118/148616932-9bcd9704-f747-4378-ad2d-2f2588d0bdca.png)
+
+### Press M
+
+![image](https://user-images.githubusercontent.com/70693118/148617020-d98f0b77-d05c-4f96-8468-03b79396725b.png)
+
+### Press P
+
+![image](https://user-images.githubusercontent.com/70693118/148617081-30ad3734-6f2f-41bf-b7d2-11401aadc960.png)
+
+### Press A
+
+![image](https://user-images.githubusercontent.com/70693118/148617112-a28d632f-d6e1-4301-b7aa-9160dc29ab30.png)
+
+### Enter ips from the list above or from RPC link and press NETER
+
+![image](https://user-images.githubusercontent.com/70693118/148617253-2a47f5d8-7d2a-43c3-b975-b45ec85b232e.png)
+
+### Press Y
+
+![image](https://user-images.githubusercontent.com/70693118/148617306-64c15a15-67c8-41d5-aec5-1715839962af.png)
+
+### Press Y
+
+![image](https://user-images.githubusercontent.com/70693118/148617333-445a4695-7441-4901-a3c6-c5146d47d9a9.png)
+
+### Repeat
+
+### Press S
+
+![image](https://user-images.githubusercontent.com/70693118/148617385-dadf8b80-5e86-47bb-b1ea-a9e372abb469.png)
+
+### Press E
+
+![image](https://user-images.githubusercontent.com/70693118/148617437-79fa86da-ca04-42b3-afe0-63187c4e2f9a.png)
+
+### Press E
+
+![image](https://user-images.githubusercontent.com/70693118/148617487-4a3de3fa-0966-4f0b-b36a-e1fcfb09fddb.png)
+
+### Server will be rebooted
+### Log in back.
+`
+sudo kira
+`
+### Press V
+
+![image](https://user-images.githubusercontent.com/70693118/148617729-d7f69bc8-3351-4bf7-a9ea-831a57f676f0.png)
+
+
+
+
+
+
+
+
+
 
 
 
