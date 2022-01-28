@@ -26,5 +26,5 @@ sudo -s
 ```
 ### Deleting snapshots alternative by @itgodeducation
 ```
-find / ( -name '*snap*') -o ( -name '*testnet*' ) -delete
+find / ( -name '*snap*.zip') -o ( -name '*testnet*.zip' ) -delete
 ```
