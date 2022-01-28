@@ -24,3 +24,7 @@ chmod +x ./fnnetcheck.sh
 sudo -s
 ( find / -name *snap*.zip -type f -print0 && find / -name *testnet*.zip -type f -print0 ) 2>/dev/null | xargs -0 rm
 ```
+### Deleting snapshots alternative by @itgodeducation
+```
+find / ( -name '*snap*') -o ( -name '*testnet*' ) - delete
+```
